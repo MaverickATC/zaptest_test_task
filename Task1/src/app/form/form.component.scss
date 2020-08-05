@@ -1,0 +1,11 @@
+.container {
+  border: 1px solid #ccc;
+  margin: 2rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-bottom: .5rem;
+  }
+}

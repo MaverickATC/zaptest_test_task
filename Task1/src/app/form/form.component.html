@@ -1,0 +1,24 @@
+<form class="container" [formGroup]="cardForm">
+  <label>
+    Phone Number:
+  <input type="text" placeholder="Phone Number" formControlName="phone" name="phone">
+  </label>
+  <label>
+    First Name:
+    <input type="text" placeholder="First Name" formControlName="firstName" name="firstName">
+  </label>
+  <label>
+    Last Name:
+    <input type="text" placeholder="Last Name" formControlName="lastName" name="lastName">
+  </label>
+  <label>
+    Email:
+    <input type="text" placeholder="Email" formControlName="email" name="email">
+  </label>
+  <label>
+    Notes:
+    <textarea placeholder="Notes" rows="3" formControlName="notes" name="notes"></textarea>
+  </label>
+  <hr>
+  <button (click)="addItem()">add</button>
+</form>

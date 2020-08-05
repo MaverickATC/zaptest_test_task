@@ -1,0 +1,36 @@
+{
+  "phoneCards": [
+    {
+      "ID": 9928742938,
+      "phoneNumber": "9928742938",
+      "email": "qwe@asd.com",
+      "firstName": "Alex",
+      "lastName": "First",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, sapiente."
+    },
+    {
+      "ID": 445645,
+      "phoneNumber": "445645",
+      "email": "qwe@asd.com",
+      "firstName": "",
+      "lastName": "Tomasson",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, sapiente."
+    },
+    {
+      "ID": 56412,
+      "phoneNumber": "56412",
+      "email": "qwe@asd.com",
+      "firstName": "Endy",
+      "lastName": "",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, sapiente."
+    },
+    {
+      "ID": 9928742938123,
+      "phoneNumber": "9928742938",
+      "email": "qwe@asd.com",
+      "firstName": "Alex",
+      "lastName": "First",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, sapiente."
+    }
+  ]
+}

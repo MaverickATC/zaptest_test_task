@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Test</h1>
+  <app-form
+    (newCard)="addItem($event)"
+    [inputCard]="activeCard"
+  ></app-form>
+  <hr>
+  <app-card
+    (editCard)="setActiveCard($event)"
+    (deleteCard)="deleteCard($event)"
+    *ngFor="let item of cards"
+    [card]="item"
+  ></app-card>
+</div>
